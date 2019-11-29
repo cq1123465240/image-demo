@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/viewer_min.css">
+</head>
+<body>
+
+
+	<div class="img_box">
+		
+		<img src="image/1.jpg" data-original="image/1.jpg">
+		<img src="image/2.jpg" data-original="image/2.jpg">
+		<img src="image/3.jpg" data-original="image/3.jpg">
+		<img src="image/4.jpg" data-original="image/4.jpg">
+
+	</div>
+
+	<script src='js/jq.js'></script>
+	<script src='js/viewer.js'></script>
+
+	<script>
+		
+		// 图片显示插件
+        $('.img_box').viewer("data-original");
+
+	</script>
+
+</body>
+</html>
